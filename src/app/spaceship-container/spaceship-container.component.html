@@ -1,0 +1,3 @@
+<button (click)="preFillForm()">Pre fill the form</button>
+
+<app-spaceship-form [spaceship]="spaceship$ | async" (spaceshipUpdated)="spaceshipUpdated($event)"></app-spaceship-form>
